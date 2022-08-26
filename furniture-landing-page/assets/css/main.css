@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Merriweather", serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+nav {
+  height: 6.125rem;
+  background: #fff;
+}
+nav .nav-inner {
+  max-width: 78.125rem;
+  width: 100%;
+  margin: auto;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .nav-inner .links {
+  display: flex;
+  align-items: center;
+}
+nav .nav-inner .links .link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #2f3832;
+  margin-right: 30px;
+  transition: 0.2s;
+}
+nav .nav-inner .links .link:hover {
+  color: #dcaf51;
+  cursor: pointer;
+}
+nav .nav-inner .links span {
+  margin-right: 20px;
+}
+
+.banner {
+  min-height: calc(100vh - 6.125rem);
+  background: url(../img/bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  padding-top: 90px;
+  padding-left: 100px;
+}
+.banner .banner-content h3 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 87px;
+  color: #535353;
+  max-width: 34.375rem;
+  margin-bottom: 2.813rem;
+}
+.banner .banner-content span {
+  color: #dcaf51;
+}
+.banner .banner-content p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.375rem;
+  line-height: 2.813rem;
+  color: #535353;
+  max-width: 31.563rem;
+}
+.banner .banner-content button {
+  width: 9.375rem;
+  height: 3.125rem;
+  background: #535353;
+  color: #fff;
+  margin-top: 2.813rem;
+  border: none;
+  outline: none;
+  transition: background ease-in-out 0.2s;
+}
+.banner .banner-content button:hover {
+  border: #535353 solid 2px;
+  cursor: pointer;
+  background: transparent;
+  color: #2f3832;
+}/*# sourceMappingURL=main.css.map */
